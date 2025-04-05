@@ -57,6 +57,7 @@ menu {
     justify-content: center;
     padding: 0;
     margin: 10px;
+    min-width: 50px;
 }
 menu a {
     margin: 20px 0;
@@ -151,3 +152,14 @@ menu img {
     width: 80%;
     border-radius: 30%;
 }
+
+@media (max-width: 800px) {
+    .avt {
+        display: none;
+    }
+    .infor{
+        width: 100%;
+    }
+}
+
+
