@@ -5,49 +5,47 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Inter', sans-serif;
+    background-color: #dfead2;
+    color: #5c715e;
 }
 
 header {
     height: 10%;
-    background: #E0FFFF;
-    color: black;
+    background: #fefaf1;
+    color: #5c715e;
     text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     border-bottom-left-radius: 30px;
-    border-bottom: 3px solid black;
-    border-left: 3px solid black;
-
+    border-bottom: 3px solid #b49375;
+    border-left: 3px solid #b49375;
 }
 
-
 header h1 {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     font-weight: bold;
     letter-spacing: 2px;
-    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
     margin: 0;
 }
 
 header h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-style: italic;
     opacity: 0.9;
     margin-top: 5px;
 }
 
-header img{
+header img {
     width: 15%;
     display: none;
     border-radius: 20%;
 }
 
-
-main{
+main {
     display: flex;
     height: 85%;
     margin-bottom: 10px;
@@ -58,28 +56,24 @@ menu {
     display: flex;
     flex-direction: column;
     border-radius: 30px;
-    border: 3px solid black;
+    border: 3px solid #b49375;
     align-items: center;
     justify-content: center;
     padding: 0;
     margin: 10px;
     min-width: 50px;
+    background-color: #fefaf1;
 }
+
 menu a {
     margin: 20px 0;
     display: flex;
     justify-content: center;
+    color: #5c715e;
 }
 
-menu a:hover {
-    background-color: #E0E0E0;
-    transform: scale(1.2);
-    padding: 10px;
-    border-radius: 20px;
-}
-
-menu a.active {
-    background-color: #E0E0E0;
+menu a:hover, menu a.active {
+    background-color: #eceadf;
     transform: scale(1.2);
     padding: 10px;
     border-radius: 20px;
@@ -98,15 +92,16 @@ menu img {
     position: relative;
     flex-direction: column;
     align-items: center;
-    border: 3px solid black;
+    border: 3px solid #b49375;
     border-radius: 20px;
+    background-color: #fefaf1;
 }
 
 .slider {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     transition: transform 0.8s ease-in-out;
-    height: 300%; 
+    height: 300%;
     position: relative;
 }
 
@@ -121,19 +116,21 @@ menu img {
 }
 
 .slide h2 {
-    font-size: 3rem;
+    font-size: 2.2rem;
     font-weight: bold;
     margin-bottom: 20px;
+    color: #b49375;
 }
 
 .slide p, .slide a {
-    font-size: 1.2rem; 
+    font-size: 1rem;
     line-height: 1.6;
+    color: #5c715e;
 }
 
 .slide a {
     font-weight: bold;
-    color: #007BFF;
+    color: #5c715e;
     text-decoration: none;
 }
 
@@ -147,26 +144,25 @@ menu img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px; 
-    background-color: #F0F8FF;
+    padding: 10px;
+    background-color: #fefaf1;
     border-bottom-left-radius: 20px;
-    border-bottom: 3px solid black;
-    border-left: 3px solid black;
+    border-bottom: 3px solid #b49375;
+    border-left: 3px solid #b49375;
 }
 
 .avt img {
     width: 80%;
-    border-radius: 30%;
+    border-radius: 20px;
 }
 
 @media (max-width: 800px) {
     .avt {
         display: none;
     }
-    .infor{
+    .infor {
         width: 100%;
     }
-
     .header-content {
         display: flex;
         align-items: center;
@@ -174,26 +170,20 @@ menu img {
         width: 100%;
         gap: 10px;
     }
-
     .header-text {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         text-align: right;
     }
-
     .header-text h1 {
         font-size: 1.6rem;
         margin: 0;
     }
-
     .header-text h4 {
         font-size: 1rem;
-        font-style: italic;
         margin: 0;
-        opacity: 0.9;
     }
-
     .header-content img {
         width: 70px;
         display: block;
@@ -206,23 +196,16 @@ menu img {
     main {
         font-size: 0.7rem;
     }
-
     .slide h2 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
-
     .slide p, .slide a {
-        font-size: 0.8rem;
+        font-size: 0.75rem;
     }
-
     header h1 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
-
     header h4 {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 }
-
-
-
