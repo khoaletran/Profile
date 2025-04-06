@@ -63,6 +63,7 @@ menu {
     margin: 10px;
     min-width: 50px;
     background-color: #fefaf1;
+    margin-bottom: 1%;
 }
 
 menu a {
@@ -95,6 +96,7 @@ menu img {
     border: 3px solid #b49375;
     border-radius: 20px;
     background-color: #fefaf1;
+    margin-bottom: 1%;
 }
 
 .slider {
@@ -149,6 +151,7 @@ menu img {
     border-bottom-left-radius: 20px;
     border-bottom: 3px solid #b49375;
     border-left: 3px solid #b49375;
+    margin-bottom: 1%;
 }
 
 .avt img {
@@ -218,5 +221,11 @@ menu img {
     }
     header h4 {
         font-size: 0.9rem;
+    }
+}
+
+@media (max-height : 300px){
+    menu {
+        display: none;
     }
 }
