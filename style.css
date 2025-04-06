@@ -155,6 +155,17 @@ menu img {
     width: 80%;
     border-radius: 20px;
 }
+@media (min-width: 800px) {
+    main {
+        font-size: 1.2rem;
+    }
+    .slide h2 {
+        font-size: 2.2rem;
+    }
+    .slide p, .slide a {
+        font-size: 1.3rem;
+    }
+}
 
 @media (max-width: 800px) {
     .avt {
