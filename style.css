@@ -202,17 +202,17 @@ menu img {
     }
 }
 
-@media (max-width: 428px) {
+@media (max-width: 500px) {
     main {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 
     .slide h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .slide p, .slide a {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     header h1 {
