@@ -15,7 +15,6 @@ header {
     text-align: center;
     padding: 20px 0;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
@@ -24,6 +23,7 @@ header {
     border-left: 3px solid black;
 
 }
+
 
 header h1 {
     font-size: 2.6rem;
@@ -38,6 +38,12 @@ header h4 {
     font-style: italic;
     opacity: 0.9;
     margin-top: 5px;
+}
+
+header img{
+    width: 15%;
+    display: none;
+    border-radius: 20%;
 }
 
 
@@ -159,6 +165,40 @@ menu img {
     }
     .infor{
         width: 100%;
+    }
+
+    .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .header-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    .header-text h1 {
+        font-size: 1.6rem;
+        margin: 0;
+    }
+
+    .header-text h4 {
+        font-size: 1rem;
+        font-style: italic;
+        margin: 0;
+        opacity: 0.9;
+    }
+
+    .header-content img {
+        width: 70px;
+        display: block;
+        border-radius: 20%;
+        margin-right: 3%;
     }
 }
 
