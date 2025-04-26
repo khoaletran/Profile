@@ -8,9 +8,10 @@ Xin chào! Mình là **Trần Lê Khoa**, sinh viên ngành **Công nghệ thôn
 - 🔧 Xây dựng trang portfolio đơn giản, responsive, hỗ trợ cả trên mobile
 
 ## 🛠️ Công nghệ sử dụng
-- **HTML**, **CSS** (thuần)
-- Responsive Web Design
-- Thiết kế giao diện theo phong cách tối giản, hiện đại
+- **Frontend**: HTML, CSS, JavaScript  
+- **UI/UX**: Thiết kế đơn giản, hiện đại theo tông màu biển  
+- **Backend (hướng mở rộng)**: Node.js / PHP (tuỳ chọn nếu triển khai)  
+- **Database (hướng mở rộng)**: MySQL / MongoDB  
 
 ## 📂 Nội dung trang
 - **About** – Giới thiệu bản thân và quá trình học tập
